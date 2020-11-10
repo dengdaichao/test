@@ -18,7 +18,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: ''
+      msg: '666'
     }
   },
   methods: {
