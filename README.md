@@ -1,30 +1,14 @@
-# test
+## 按需加载
+借助babel插件`babel-plugin-component`实现
 
-> A Vue.js project
+详细查看点击下方链接
+[segmentFault](https://segmentfault.com/a/1190000015884948)
 
-## Build Setup
+## markdown编写说明文档
 
-``` bash
-# install dependencies
-npm install
+详细查看点击下方链接
+[segmentFault](https://segmentfault.com/a/1190000016342795)
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 为组件库增加单元测试
+详细查看点击下方链接
+[segmentFault](https://segmentfault.com/a/1190000017970919)

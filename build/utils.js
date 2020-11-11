@@ -50,8 +50,9 @@ exports.cssLoaders = function (options) {
         fallback: 'vue-style-loader'
       })
     } else {
-      return ['vue-style-loader'].concat(loaders)
     }
+    return ['vue-style-loader'].concat(loaders)
+
   }
 
   // https://vue-loader.vuejs.org/en/configurations/extract-css.html
