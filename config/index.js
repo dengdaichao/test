@@ -8,7 +8,7 @@ module.exports = {
   dev: {
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '/',
     // proxyTable: {
     //   '/admin': {
     //     target: 'http://material.xesv5.com',
@@ -47,7 +47,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../lib'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps
