@@ -15,7 +15,9 @@
     "start": "npm run dev",
     "build": "node build/build.js",
     "build_example": "node build/build.js examples",
-    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run"
+    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "babel-plugin-component": "^1.1.1",
